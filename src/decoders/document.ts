@@ -1,4 +1,4 @@
-import type { Document } from "~/models";
+import type { Document } from "../models";
 import { decodeDocumentKind } from "./document-kind";
 
 export const decodeDocument = (item: any): Document => {

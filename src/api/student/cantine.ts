@@ -1,5 +1,5 @@
-import { decodeBarcode, decodeReservation } from "~/decoders/cantine";
-import type { Account, CantineBarcode, CantineReservations } from "~/models";
+import { decodeBarcode, decodeReservation } from "../../decoders/cantine";
+import type { Account, CantineBarcode, CantineReservations } from "../../models";
 
 type CantineResponse = Readonly<{
   reservation?: CantineReservations;

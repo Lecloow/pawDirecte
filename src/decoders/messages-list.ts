@@ -1,5 +1,5 @@
-import type { FileKind } from "~/models";
-import type { APIReceivedMessageType, ReceivedMessage } from "~/models/message";
+import type { FileKind } from "../models";
+import type { APIReceivedMessageType, ReceivedMessage } from "../models/message";
 
 export const decodeMesssagesList = (
   message: APIReceivedMessageType

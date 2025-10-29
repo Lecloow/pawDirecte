@@ -3,7 +3,7 @@ import {
   type CantineReservations,
   ReservationMeals,
   ReservationWeekdays
-} from "~/models";
+} from "../models";
 
 export const decodeReservation = (item: any): CantineReservations => {
   const meals: CantineReservations["meals"] = {

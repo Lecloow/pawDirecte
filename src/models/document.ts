@@ -1,4 +1,4 @@
-import type { DocumentKind } from "~/models";
+import type { DocumentKind } from "../models";
 
 export type Document = Readonly<{
   id: number;

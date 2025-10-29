@@ -1,12 +1,12 @@
-import { Request } from "~/core/request";
-import { decodeDoubleAuth } from "~/decoders/double-auth";
-import { decodeDoubleAuthChallenge } from "~/decoders/double-auth-challenge";
+import { Request } from "../core/request";
+import { decodeDoubleAuth } from "../decoders/double-auth";
+import { decodeDoubleAuthChallenge } from "../decoders/double-auth-challenge";
 import {
   BadCredentials,
   type DoubleAuthChallenge,
   type Session,
   SessionTokenRequired
-} from "~/models";
+} from "../models";
 
 import { encode } from "js-base64";
 

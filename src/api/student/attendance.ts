@@ -1,11 +1,11 @@
-import { Request } from "~/core/request";
-import { decodeAttendanceItem } from "~/decoders/attendance-item";
+import { Request } from "../../core/request";
+import { decodeAttendanceItem } from "../../decoders/attendance-item";
 import {
   type Account,
   type AttendanceItem,
   type Session,
   SessionTokenRequired
-} from "~/models";
+} from "../../models";
 
 type AttendanceResponse = Readonly<{
   punishments: Array<AttendanceItem>;

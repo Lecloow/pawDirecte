@@ -1,7 +1,7 @@
-import { Request } from "~/core/request";
-import { decodeGrade } from "~/decoders/grade";
-import { buildOverview } from "~/decoders/grades-overview";
-import { decodePeriod } from "~/decoders/period";
+import { Request } from "../../core/request";
+import { decodeGrade } from "../../decoders/grade";
+import { buildOverview } from "../../decoders/grades-overview";
+import { decodePeriod } from "../../decoders/period";
 import {
   type Account,
   type Grade,
@@ -9,7 +9,7 @@ import {
   type Period,
   type Session,
   SessionTokenRequired
-} from "~/models";
+} from "../../models";
 
 type GradesResponse = {
   grades: Array<Grade>;

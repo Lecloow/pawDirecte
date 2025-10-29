@@ -1,4 +1,4 @@
-import type { TimelineItem } from "~/models";
+import type { TimelineItem } from "../models";
 
 export const decodeTimelineItem = (item: any): TimelineItem => {
   return {

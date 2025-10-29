@@ -1,17 +1,17 @@
-import { Request } from "~/core/request";
+import { Request } from "../../core/request";
 import {
   decodeClassSubject,
   decodeComingHomework,
   decodeHomework
-} from "~/decoders/homework";
+} from "../../decoders/homework";
 import {
   type Account,
   type ClassSubject,
   type ComingHomework,
   type Session,
   SessionTokenRequired
-} from "~/models";
-import type { Homework } from "~/models";
+} from "../../models";
+import type { Homework } from "../../models";
 
 export const studentHomeworks = async (
   session: Session,

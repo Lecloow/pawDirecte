@@ -1,5 +1,5 @@
 import { decode } from "js-base64";
-import type { ClassSubject, ComingHomework, Homework } from "~/models";
+import type { ClassSubject, ComingHomework, Homework } from "../models";
 import { decodeDocument } from "./document";
 
 export const decodeHomework = (item: any): Homework => {

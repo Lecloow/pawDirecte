@@ -1,4 +1,4 @@
-import type { DoubleAuth } from "~/models/double-auth";
+import type { DoubleAuth } from "../models/double-auth";
 
 export const encodeDoubleAuth = (
   double_auth: DoubleAuth | null | undefined

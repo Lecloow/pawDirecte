@@ -1,5 +1,5 @@
-import { Request } from "~/core/request";
-import { type Account, type Session, SessionTokenRequired } from "~/models";
+import { Request } from "../../core/request";
+import { type Account, type Session, SessionTokenRequired } from "../../models";
 
 export const studentVisios = async (
   session: Session,

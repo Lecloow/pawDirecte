@@ -1,11 +1,11 @@
-import { Request } from "~/core/request";
-import { decodeWorkspace } from "~/decoders/workspace-item";
+import { Request } from "../../core/request";
+import { decodeWorkspace } from "../../decoders/workspace-item";
 import {
   type Account,
   type Session,
   SessionTokenRequired,
   type WorkspaceItem
-} from "~/models";
+} from "../../models";
 
 export const studentWorkspace = async (
   session: Session,

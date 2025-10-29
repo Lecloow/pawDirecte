@@ -1,4 +1,4 @@
-import { AccountKind, UnknownEnumValue } from "~/models";
+import { AccountKind, UnknownEnumValue } from "../models";
 
 export const decodeAccountKind = (kind: any): AccountKind => {
   kind = String(kind);

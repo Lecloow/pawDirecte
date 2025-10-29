@@ -1,14 +1,14 @@
 import { decode } from "js-base64";
-import { Request } from "~/core/request";
-import { decodeMesssagesList } from "~/decoders/messages-list";
+import { Request } from "../../core/request";
+import { decodeMesssagesList } from "../../decoders/messages-list";
 import {
   type Account,
   type FileKind,
   type Session,
   SessionTokenRequired
-} from "~/models";
-import type { APIReceivedMessage, ReceivedMessage } from "~/models/message";
-import type { APIReceivedMessagesList } from "~/models/messages-list";
+} from "../../models";
+import type { APIReceivedMessage, ReceivedMessage } from "../../models/message";
+import type { APIReceivedMessagesList } from "../../models/messages-list";
 
 export const studentReceivedMessages = async (
   session: Session,

@@ -6,11 +6,11 @@ import {
   InvalidVersion,
   type Session,
   SessionTokenRequired
-} from "~/models";
+} from "../models";
 
-import { Request } from "~/core/request";
-import { decodeAccount } from "~/decoders/account";
-import { encodeDoubleAuth } from "~/encoders/double-auth";
+import { Request } from "../core/request";
+import { decodeAccount } from "../decoders/account";
+import { encodeDoubleAuth } from "../encoders/double-auth";
 import { getCookiesFromResponse } from "@literate.ink/utilities";
 
 const init = async (

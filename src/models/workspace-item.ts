@@ -1,4 +1,4 @@
-import type { WorkspaceItemKind } from "~/models";
+import type { WorkspaceItemKind } from "../models";
 
 export type WorkspaceItem = Readonly<{
   id: string;

@@ -1,11 +1,11 @@
-import { Request } from "~/core/request";
-import { decodeTimetableItem } from "~/decoders/timetable-item";
+import { Request } from "../../core/request";
+import { decodeTimetableItem } from "../../decoders/timetable-item";
 import {
   type Account,
   type Session,
   SessionTokenRequired,
   type TimetableItem
-} from "~/models";
+} from "../../models";
 
 /**
  * @param startDate Timetable starting from this date.

@@ -1,4 +1,4 @@
-import type { GradesOverview } from "~/models";
+import type { GradesOverview } from "../models";
 import { decodeGradeValue } from "./grade-value";
 
 export const buildOverview = (data: any): GradesOverview => {

@@ -1,4 +1,4 @@
-import type { TimetableItemKind } from "~/models";
+import type { TimetableItemKind } from "../models";
 
 export type TimetableItem = Readonly<{
   id: number;

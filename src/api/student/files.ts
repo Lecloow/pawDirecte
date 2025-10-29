@@ -1,6 +1,6 @@
 import type { Response } from "@literate.ink/utilities";
-import { Request } from "~/core/request";
-import { FileKind, type Session, SessionTokenRequired } from "~/models";
+import { Request } from "../../core/request";
+import { FileKind, type Session, SessionTokenRequired } from "../../models";
 
 export const buildPawdirecteFileDownloadUrl = (
   type: FileKind,

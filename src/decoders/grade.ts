@@ -1,6 +1,6 @@
-import { decodeGradeValue } from "~/decoders/grade-value";
-import { decodeSkill } from "~/decoders/skill";
-import type { Grade } from "~/models";
+import { decodeGradeValue } from "./grade-value";
+import { decodeSkill } from "./skill";
+import type { Grade } from "../models";
 
 export const decodeGrade = (item: any): Grade => {
   return {

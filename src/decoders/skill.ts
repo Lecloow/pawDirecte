@@ -1,4 +1,4 @@
-import type { Skill } from "~/models";
+import type { Skill } from "../models";
 
 export const decodeSkill = (item: any): Skill => {
   return {

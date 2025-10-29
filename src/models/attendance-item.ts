@@ -1,4 +1,4 @@
-import type { AttendanceItemKind } from "~/models";
+import type { AttendanceItemKind } from "../models";
 
 export type AttendanceItem = Readonly<{
   id: number;

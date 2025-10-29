@@ -1,4 +1,4 @@
-import type { AttendanceItem } from "~/models";
+import type { AttendanceItem } from "../models";
 
 export const decodeAttendanceItem = (item: any): AttendanceItem => {
   return {

@@ -1,5 +1,5 @@
 import { decode } from "js-base64";
-import type { DoubleAuthChallenge } from "~/models";
+import type { DoubleAuthChallenge } from "../models";
 
 export const decodeDoubleAuthChallenge = (
   challenge: any

@@ -1,4 +1,4 @@
-import type { TimetableItem } from "~/models";
+import type { TimetableItem } from "../models";
 
 export const decodeTimetableItem = (item: any): TimetableItem => {
   return {

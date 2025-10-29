@@ -1,4 +1,4 @@
-import type { AccountKind } from "~/models";
+import type { AccountKind } from "../models";
 
 export type Account = Readonly<{
   loginID: number;

@@ -1,6 +1,6 @@
-import { Request } from "~/core/request";
-import { decodeDocument } from "~/decoders/document";
-import { type Document, type Session, SessionTokenRequired } from "~/models";
+import { Request } from "../../core/request";
+import { decodeDocument } from "../../decoders/document";
+import { type Document, type Session, SessionTokenRequired } from "../../models";
 
 /**
  * @param archive "The year of document, if it's an archive; YYYY format."

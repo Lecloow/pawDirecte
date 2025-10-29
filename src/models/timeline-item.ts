@@ -1,4 +1,4 @@
-import type { TimelineItemKind } from "~/models";
+import type { TimelineItemKind } from "../models";
 
 export type TimelineItem = Readonly<{
   title: string;

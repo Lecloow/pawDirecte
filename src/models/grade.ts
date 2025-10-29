@@ -1,6 +1,6 @@
-import type { GradeValue } from "~/models/grade-value";
-import type { Skill } from "~/models/skill";
-import type { Subject } from "~/models/subject";
+import type { GradeValue } from "./grade-value";
+import type { Skill } from "./skill";
+import type { Subject } from "./subject";
 
 // TODO: integrate QCM
 export type Grade = Readonly<{

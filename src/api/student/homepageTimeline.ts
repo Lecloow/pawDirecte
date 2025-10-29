@@ -1,11 +1,11 @@
-import { Request } from "~/core/request";
-import { decodeHomepageTimelineItem } from "~/decoders/homepage-timeline-item";
+import { Request } from "../../core/request";
+import { decodeHomepageTimelineItem } from "../../decoders/homepage-timeline-item";
 import {
   type Account,
   type HomepageTimelineItem,
   type Session,
   SessionTokenRequired
-} from "~/models";
+} from "../../models";
 
 export const studentHomepageTimeline = async (
   session: Session,

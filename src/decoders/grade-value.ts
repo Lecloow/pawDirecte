@@ -1,4 +1,4 @@
-import { GradeKind, type GradeValue } from "~/models";
+import { GradeKind, type GradeValue } from "../models";
 
 export const decodeGradeValue = (value: string): GradeValue => {
   if (!value)
