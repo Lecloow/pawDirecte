@@ -1,0 +1,6 @@
+{
+  "name": "pawdirecte",
+  "version": "1.9.3-lecloow.0",
+  "main": "src/index.ts",
+  "license": "GPL-3.0-or-later"
+}
